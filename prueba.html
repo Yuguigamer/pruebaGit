@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primera Página en JavaScript</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #2e6c8f;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin-top: 20px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>¡Bienvenido a mi página!</h1>
+    <p>Haz clic en el botón para ver algo mágico.</p>
+
+    <button onclick="mostrarMensaje()">¡Haz clic aquí!</button>
+
+    <script>
+        // Esta es la función que se ejecuta cuando el usuario hace clic en el botón
+        function mostrarMensaje() {
+            alert("¡Hola desde JavaScript!");
+            console.log("El botón ha sido clickeado.");
+        }
+    </script>
+</body>
+</html>
